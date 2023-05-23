@@ -1,0 +1,137 @@
+
+
+.fuenteInter{
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.fuenteLexend{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+.subtitle {
+    font-size: 11px;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10%;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.main-container_text{
+     background-color: hsl(244, 38%, 16%);
+     border-radius: 0.3rem 0rem 0rem 0.3rem;
+     padding: 5rem;
+     text-align: left;
+}
+ .title {
+     font-size: 23px;
+ }
+
+.main-container_p {
+     line-height: 1.5rem;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.stats_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0rem 0rem 0rem;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+}
+.item_1,.item_2,.item_3{
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.item_1 p, .item_2 p, .item_3 p {
+    margin: 0;
+}
+
+
+.main-container_img img {
+   width: 100%;
+   height: 100%;
+   border-radius: 0rem 0.3rem 0.3rem 0rem;
+   opacity: 0.4;
+}
+
+
+.main-container_img{
+    background-color: hsl(277, 59%, 38%);
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
+}
+
+.attribution{
+    color: aliceblue;
+    text-align: center;
+}
+.link{
+    color:blueviolet;
+}
+
+@media screen and (max-width: 375px) {
+     .main-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+        
+     }
+
+     .main-container_text{
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 0rem 0rem 0.3rem 0.3rem;
+        padding: 3rem;
+        text-align: center;
+        padding: 1.5rem;
+        order: 5;
+     }
+
+     .stats_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1rem;
+     }
+
+     .item_1 p, .item_2 p, .item_3 p {
+        margin: 0.5rem;
+     }
+
+     .main-container_img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+        opacity: 0.4;
+        object-fit: cover;
+        order: 1;
+     }
+ 
+     .main-container_img{
+        background-color: hsl(277, 59%, 38%);
+        border-radius: 0.3rem 0.3rem 0rem 0rem;
+        width: 100%;
+        height: 100%;
+        order: 1;
+     }
+
+}
