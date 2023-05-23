@@ -3,7 +3,7 @@
 .fuenteInter{
     font-family: 'Inter', sans-serif;
     color: hsl(0, 0%, 100%);
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -11,17 +11,19 @@
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
     font-weight: 400;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1rem;
 }
-
+.number{
+    font-size: 1.5rem;
+}
 .subtitle {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 body{
     background-color: hsl(233, 47%, 7%);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .main-container{
@@ -38,11 +40,11 @@ body{
      text-align: left;
 }
  .title {
-     font-size: 23px;
+     font-size: 30px;
  }
 
 .main-container_p {
-     line-height: 1.5rem;
+     line-height: 2rem;
 }
 
 span{
@@ -59,21 +61,18 @@ span{
 }
 .item_1,.item_2,.item_3{
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 0.3rem;
+    line-height: 3rem;
 }
 .item_1 p, .item_2 p, .item_3 p {
     margin: 0;
 }
-
-
 .main-container_img img {
    width: 100%;
    height: 100%;
    border-radius: 0rem 0.3rem 0.3rem 0rem;
    opacity: 0.4;
 }
-
-
 .main-container_img{
     background-color: hsl(277, 59%, 38%);
     border-radius: 0rem 0.3rem 0.3rem 0rem;
